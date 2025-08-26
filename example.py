@@ -9,7 +9,7 @@ greet()
 
 # 3. nameを引数に取り、「私の名前は{name}です」と出力するprint_name関数を実装し、関数を呼び出して動作を確認してください。
 def print_name(name):
-    print("私は" + name + "です")
+    print("私の名前は" + name + "です")
 
 print_name("杉山")
 
@@ -24,3 +24,5 @@ def add(a, b):
     return a + b
 
 print(add(4, 6))
+
+# 6. example.pyをリポジトリにコミットし、pushしてください。
